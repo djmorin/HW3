@@ -41,8 +41,8 @@ for (let card = 0; card < this.state.hand.length ; card++) {
 }
     return (
       <div className="App">
-        {cards}     
-        <p><button>Deal a new hand</button></p>
+        {cards}
+        <p><button><a href="#" onClick={() => this.dealHand()}>Deal a new hand</a></button></p>
       </div>
     );
   }
